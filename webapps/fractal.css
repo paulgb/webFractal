@@ -1,0 +1,11 @@
+body {overflow: hidden; margin: 0px; padding: 0px; font-family: "Trebuchet MS", Verdana, Arial;}
+#GridContainer {width: 100%; height: 100%; position: relative;}
+#ZoomControl, #FractalOptions {opacity: 0.65; filter: alpha(opacity=65);}
+#ZoomControl {width: 85px; text-align: center; font-weight: bold; font-size: 15pt; position: absolute; top: 0; left: 100; z-index: 200; background: url(images/zoombg.png) bottom left !important; background: url(images/zoombg.gif) bottom left;}
+#ZoomControl a, #ZoomControl a:visited {text-decoration: none; font-size: 150%; margin: 0px 4px; color: black; padding: 0px 2px;}
+#ZoomControl span {text-align: center;}
+#FractalOptions {z-index: 200; position: absolute; bottom: 0px; right: 100px; padding: 0px 0px; width: 300px; background: url(images/optionbg.png) top left !important; background: url(images/optionbg.gif) top left; text-align: center;}
+#FractalOptions a {padding: 4px 14px; font-size: 15pt; font-weight: bold; color: black; text-decoration: none; display: block; text-align: left;}
+#FractalOptions table {padding: 4px; margin: 0px auto; text-align: left;}
+#FractalOptions td {font-weight: bold;}
+#FractalOptions a img {position: absolute; right: 10; border: 0; top: 11px;}
